@@ -5,7 +5,6 @@ import {
   IconPhoto,
   IconMessageCircle,
   IconTrash,
-  IconArrowsLeftRight,
   IconChevronDown,
   IconLogout,
 } from '@tabler/icons-react';
@@ -15,7 +14,7 @@ import { useAuth } from 'hooks';
 
 const UserMenu = () => {
   const dispatch = useDispatch();
-  const { isLoggedIn, user } = useAuth();
+  const { user } = useAuth();
 
   return (
     <Menu
