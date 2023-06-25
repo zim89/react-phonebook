@@ -118,26 +118,11 @@ export default function Home() {
 
           <Container p={0} size={600}>
             <Text size="lg" color="dimmed" className={classes.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              ac iaculis eros. Vestibulum blandit massa eu leo sagittis, vel
-              bibendum nibh interdum. Nulla sit amet enim et libero elementum
-              dapibus.
+              A simple phonebook app connected to Swagger backend API - you can
+              register, log in, log out, add, remove, update or filter your
+              contacts.
             </Text>
           </Container>
-
-          <div className={classes.controls}>
-            <Button
-              className={classes.control}
-              size="lg"
-              variant="default"
-              color="gray"
-            >
-              Book a demo
-            </Button>
-            <Button className={classes.control} size="lg">
-              Purchase a license
-            </Button>
-          </div>
         </div>
       </Container>
     </>

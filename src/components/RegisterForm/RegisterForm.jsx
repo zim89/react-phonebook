@@ -54,11 +54,11 @@ const RegisterForm = () => {
 
   return (
     <Paper shadow="sm" p="xl" w={350} mx="auto">
-      <Text size="lg" weight={500} ta="center">
-        Welcome, register with
+      <Text size="lg" weight={500} ta="center" mb={20}>
+        Welcome, register with email
       </Text>
 
-      <Group grow mb="md" mt="md">
+      {/* <Group grow mb="md" mt="md">
         <Button
           variant="outline"
           size="md"
@@ -77,7 +77,7 @@ const RegisterForm = () => {
         </Button>
       </Group>
 
-      <Divider label="Or continue with email" labelPosition="center" my="lg" />
+      <Divider label="Or continue with email" labelPosition="center" my="lg" /> */}
 
       <form onSubmit={form.onSubmit(handleSubmit)}>
         <Stack>

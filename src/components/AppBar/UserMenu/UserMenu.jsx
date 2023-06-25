@@ -71,11 +71,11 @@ const UserMenu = () => {
       </Menu.Target>
 
       <Menu.Dropdown>
-        <Menu.Label>Application</Menu.Label>
-        <Menu.Item icon={<IconSettings size={14} />}>Settings</Menu.Item>
-        <Menu.Item icon={<IconMessageCircle size={14} />}>Messages</Menu.Item>
-        <Menu.Item icon={<IconPhoto size={14} />}>Gallery</Menu.Item>
-        <Menu.Item
+        {/* <Menu.Label>Application</Menu.Label> */}
+        {/* <Menu.Item icon={<IconSettings size={14} />}>Settings</Menu.Item> */}
+        {/* <Menu.Item icon={<IconMessageCircle size={14} />}>Messages</Menu.Item> */}
+        {/* <Menu.Item icon={<IconPhoto size={14} />}>Gallery</Menu.Item> */}
+        {/* <Menu.Item
           icon={<IconSearch size={14} />}
           rightSection={
             <Text size="xs" color="dimmed">
@@ -84,9 +84,9 @@ const UserMenu = () => {
           }
         >
           Search
-        </Menu.Item>
+        </Menu.Item> */}
 
-        <Menu.Divider />
+        {/* <Menu.Divider /> */}
 
         <Menu.Label>Danger zone</Menu.Label>
         <Menu.Item
@@ -95,9 +95,9 @@ const UserMenu = () => {
         >
           Logout
         </Menu.Item>
-        <Menu.Item color="red" icon={<IconTrash size={14} />}>
+        {/* <Menu.Item color="red" icon={<IconTrash size={14} />}>
           Delete my account
-        </Menu.Item>
+        </Menu.Item> */}
       </Menu.Dropdown>
     </Menu>
   );

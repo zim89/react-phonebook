@@ -42,11 +42,11 @@ const LoginForm = () => {
 
   return (
     <Paper shadow="sm" p="xl" w={350} mx="auto">
-      <Text size="lg" weight={500} ta="center">
-        Welcome, login with
+      <Text size="lg" weight={500} ta="center" mb={20}>
+        Welcome, login with email
       </Text>
 
-      <Group grow mb="md" mt="md">
+      {/* <Group grow mb="md" mt="md">
         <Button
           variant="outline"
           size="md"
@@ -65,7 +65,7 @@ const LoginForm = () => {
         </Button>
       </Group>
 
-      <Divider label="Or continue with email" labelPosition="center" my="lg" />
+      <Divider label="Or continue with email" labelPosition="center" my="lg" /> */}
 
       <form onSubmit={form.onSubmit(handleSubmit)}>
         <Stack>
