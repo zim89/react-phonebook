@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
 import { useForm, isEmail } from '@mantine/form';
-import { FcGoogle } from 'react-icons/fc';
-import { FaGithub } from 'react-icons/fa';
+// import { FcGoogle } from 'react-icons/fc';
+// import { FaGithub } from 'react-icons/fa';
 import {
   TextInput,
   PasswordInput,
@@ -11,10 +11,10 @@ import {
   Paper,
   Group,
   Button,
-  Divider,
+  // Divider,
   Anchor,
   Stack,
-  rem,
+  // rem,
 } from '@mantine/core';
 
 const LoginForm = () => {

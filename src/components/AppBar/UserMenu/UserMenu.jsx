@@ -1,13 +1,14 @@
 import { Group, Avatar, Text, Menu, UnstyledButton } from '@mantine/core';
-import {
-  IconSettings,
-  IconSearch,
-  IconPhoto,
-  IconMessageCircle,
-  IconTrash,
-  IconChevronDown,
-  IconLogout,
-} from '@tabler/icons-react';
+// import {
+//   IconSettings,
+//   IconSearch,
+//   IconPhoto,
+//   IconMessageCircle,
+//   IconTrash,
+//   IconChevronDown,
+//   IconLogout,
+// } from '@tabler/icons-react';
+import { IconChevronDown, IconLogout } from '@tabler/icons-react';
 import { useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/operations';
 import { useAuth } from 'hooks';
