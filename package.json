@@ -1,8 +1,8 @@
 {
-  "name": "react-hw-08-phonebook",
+  "name": "react-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zim89/react-hw-08-phonebook/",
+  "homepage": "https://zim89/react-phonebook/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@mantine/core": "^6.0.11",
