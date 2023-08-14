@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Notifications position="top-center" zIndex={2077} />
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <BrowserRouter basename="/react-hw-08-phonebook">
+          <BrowserRouter basename="/react-phonebook">
             <GlobalStyles />
             <App />
           </BrowserRouter>
